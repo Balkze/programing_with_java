@@ -70,8 +70,7 @@ node30.addneighbours(node60);
 node60.addneighbours(node70);
 node50.addneighbours(node70);
 System.out.println("The BFS traversal of the graph is ");
-BreadthFirstSearchExampleNeighbourList bfsExample = new
-BreadthFirstSearchExampleNeighbourList();
+BreadthFirstSearchExampleNeighbourList bfsExample = new BreadthFirstSearchExampleNeighbourList();
 bfsExample.bfs(node40);
 }
 }
